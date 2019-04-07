@@ -1,4 +1,5 @@
 import java.awt.event.ActionEvent;
+import java.awt.event.KeyEvent;
 
 public class Controller {
     View view;
@@ -10,5 +11,5 @@ public class Controller {
 
     public void pauseListener(ActionEvent e){}
 
-    public void keyPressedListener(ActionEvent e){}
+    public void keyPressedListener(KeyEvent e){}
 }

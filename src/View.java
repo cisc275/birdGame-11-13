@@ -1,5 +1,8 @@
+import javax.swing.*;
+
 public class View {
     PlayableBird bird;
+    JFrame frame = new JFrame();
 
     public View(){}
 
